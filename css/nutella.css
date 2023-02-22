@@ -123,7 +123,7 @@ h1 {
     width: 200px;
     height: 70px;
     overflow: hidden;
-    background: url(/images/nutella/nutellalogo.png) no-repeat 50% 50% / 100%;
+    background: url(/ex/images/nutella/nutellalogo.png) no-repeat 50% 50% / 100%;
 }
 .main01{
     width: 100%;
@@ -153,12 +153,12 @@ h1 {
     padding: 350px 100px;
 }
 .main01 .mainvisual02 .inner{
-    background-image: url(/images/nutella/main2.jpg);
+    background-image: url(/ex/images/nutella/main2.jpg);
     background-size: cover;
     height: 800px;
 }
 .main01 .mainvisual03 .inner{
-    background-image: url(/images/nutella/main03.webp);
+    background-image: url(/ex/images/nutella/main03.webp);
     background-size: cover;
     height: 800px;
 }
