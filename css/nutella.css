@@ -127,7 +127,6 @@ h1 {
 }
 .main01{
     width: 100%;
-    height: 800px;
     display: flex;
     justify-content: center;
     background-color: #FFF6D4;
@@ -140,34 +139,34 @@ h1 {
     height: 100%;
 }
 .main01 .mainvisual01{
+    background: url(/ex/images/nutella/main01.png) 50% 50% no-repeat;
     width: 100%;
     height: 100%;
 }
-.main01 .mainvisual01 video{
-    width: 100%;
+.main01 .mainvisual01 > video{
+    width: 40%;
+    /* padding: 200px 0; */
+    padding: 351px 0 52px 100px;
 }
-
-.main01 .mainvisual02 .inner h1{
+/* .main01 .mainvisual02 .inner h1{
     height: 100px;
     vertical-align: bottom;
     padding: 350px 100px;
-}
-.main01 .mainvisual02 .inner{
-    background-image: url(/ex/images/nutella/main2.jpg);
-    background-size: cover;
-    height: 800px;
+} */
+.main01 .mainvisual02 .img{
+    width: 100%;
+    height: 100%;
 }
 .main01 .mainvisual03 .inner{
-    background-image: url(/ex/images/nutella/main03.webp);
-    background-size: cover;
-    height: 800px;
+    width: 100%;
+    height: 100%;
 }
-.main01 .mainvisual03 .inner h2{
+/* .main01 .mainvisual03 .inner h2{
     color: #fff;
     font-size: 40px;
     font-weight: 400;
     display: flex;
-    padding: 50px;
+    padding: 40px;
 }
 
 .main01 .mainvisual03 .inner h3{
@@ -180,7 +179,7 @@ h1 {
 .main01 .mainvisual03 .inner h1{
     font-size: 40px;
     padding-left: 50px;
-}
+} */
 .main02{
     display: flex;
     justify-content: center;

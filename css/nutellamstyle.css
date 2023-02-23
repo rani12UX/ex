@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+/* nutella m */
+
+body, main{ min-width: 430px; }
+header{ min-width: 430px; }
+header .sns{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+    position: relative;
+    width: 430px;
+}
+.top {
+    min-width: 430px;
+    height: 50px;
+    display: flex;
+    border-bottom: none;
+    position: relative;
+}
